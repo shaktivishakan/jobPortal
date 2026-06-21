@@ -18,6 +18,7 @@ public class User {
     @Column(nullable = false, unique = true)
     private String name;
     private String password;
+    private String email;
     private String role;
     private boolean enabled;
     private LocalDateTime createdAt;
