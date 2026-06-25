@@ -7,5 +7,5 @@ public record ErrorResponse (
     LocalDateTime timestamp,
     int status,
     String error,
-    Map<String, String> errors
+    Map<String, String> fieldErrors
 ) {}
